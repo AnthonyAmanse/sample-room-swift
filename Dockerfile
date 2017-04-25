@@ -16,11 +16,11 @@
 
 # Dockerfile to build a Docker image with the Swift binaries and its dependencies.
 
-FROM ibmcom/swift-ubuntu:latest
+FROM ibmcom/swift-ubuntu:3.0.2
 MAINTAINER IBM Swift Engineering at IBM Cloud
 LABEL Description="Linux Ubuntu 14.04 image with the Swift binaries"
 
-EXPOSE 8090
+EXPOSE 8080
 
 WORKDIR $HOME
 
